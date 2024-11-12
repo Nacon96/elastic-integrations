@@ -184,13 +184,8 @@ processors:
       ignore_missing: true
   - remove:
       field:
-        - syslog5424_sd
-        - syslog5424_msgid
-        - syslog5424_proc
-        - syslog5424_app
         - syslog5424_host
-        - syslog5424_ts
-        - syslog5424_ver
+        - syslog5424_msg
       ignore_missing: true
   - script:
       lang: painless
