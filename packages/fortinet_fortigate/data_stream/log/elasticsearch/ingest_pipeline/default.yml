@@ -666,7 +666,6 @@ processors:
   - remove:
       field:
         - _temp
-        - syslog5424_msg
         - fortinet.firewall.tz
         - fortinet.firewall.date
         - fortinet.firewall.devid
